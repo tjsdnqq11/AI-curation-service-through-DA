@@ -28,7 +28,7 @@ cash_balance = 10000
 
 # 첫 페이지 (포트폴리오와 수익률 화면)
 def main_page():
-    st.markdown("<h1 style='text-align: center; color: navy; font-size: 36px; font-weight: bold;'>OO증권</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: navy; font-size: 36px; font-weight: bold;'>나무증권</h1>", unsafe_allow_html=True)
     
     col1, col2 = st.columns([1, 1])
     
