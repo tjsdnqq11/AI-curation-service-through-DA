@@ -1,5 +1,5 @@
 streamlit
 numpy
 pandas
-openai
+openai==0.28
 plotly
