@@ -4,7 +4,6 @@ import pandas as pd
 import plotly.graph_objects as go
 import json
 
-openai.api_key = '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'
 
 
 # GPT API로 점수 계산 요청
