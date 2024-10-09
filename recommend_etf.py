@@ -72,7 +72,7 @@ def recommend_etf(scores):
 
 # 질문 페이지
 def questions_page():
-    st.title("생성형 AI를 활용한 중장년층 맞춤 ETF 추천")
+    st.title("생성형 AI 활용 중장년층 맞춤 ETF 추천")
     st.markdown("### 투자 성향 분석을 위한 질문")
 
     responses = []
