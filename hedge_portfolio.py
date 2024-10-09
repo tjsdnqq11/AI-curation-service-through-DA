@@ -42,8 +42,6 @@ def main_page():
         st.markdown(f"### 총 수익률: {total_return}%")
         st.line_chart(returns_data)
 
-# OpenAI API 키 설정
-openai.api_key = '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'
 
 # 상관계수 추출
 def extract_correlation_from_gpt_response(responses):
