@@ -2,7 +2,7 @@ streamlit
 numpy
 pandas
 openai
-plotly.graph_objects
+plotly
 json
 re
 time
