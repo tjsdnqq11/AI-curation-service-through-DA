@@ -1,17 +1,7 @@
-import subprocess
-import sys
-
-def install(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-# Example usage:
-install('openai')
-
 import openai
 import streamlit as st
 
-# OpenAI API 키 설정
-openai.api_key = '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'
+
 
 # ChatGPT 호출 함수 - 퀴즈 생성
 def generate_quiz(prompt):
