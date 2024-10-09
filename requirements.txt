@@ -1,0 +1,8 @@
+streamlit
+numpy
+pandas
+openai
+plotly.graph_objects
+json
+re
+time
